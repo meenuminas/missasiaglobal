@@ -1,0 +1,418 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: "Poetsen One", sans-serif;
+} */
+body{
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.navbar-toggler {
+    background-color: transparent !important; 
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; 
+   
+  }
+  .navbar-toggler-icon {
+    background-color: black; /* Set the background color of the toggler icon */
+    border-radius: 3px; /* Adjust border-radius if needed */
+}
+
+.navbar-toggler-lines {
+    background-color: white; /* Set the color of the lines inside the toggler icon */
+    display: block;
+    height: 5px; /* Adjust the height of the lines */
+    width: 27px; /* Adjust the width of the lines */
+    border-radius: 1px; /* Adjust border-radius if needed */
+    margin: 4px 0; /* Adjust margin if needed */
+  
+}
+
+
+.carousel-image {
+  max-height: 700px;
+  width: auto;
+}
+@media(max-width:768px){
+  .carousel-image {
+    max-height: 290px; /* Adjust height for smaller screens */
+}
+}
+.carousel-image{
+  height: 700px;
+  
+}
+@media (max-width: 385px) {
+  .carousel-image {
+    max-height: 200px; /* Adjust height for screens up to 447 pixels wide */
+  }
+}
+.hh{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+  
+}
+                    
+.nav-link{
+  font-family: "Poetsen One", sans-serif;
+  font-size: 22px;
+}
+
+.ff{
+  position: relative;
+
+  margin: 0px auto 30px auto;
+ 
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 10%;
+  width: 413px;
+  height: 144px;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  /* border: 2px red solid; */
+}
+
+
+
+.name{
+color: rgb(143, 136, 136);
+}
+@media (max-width: 991px){
+.po{
+  text-align: center;
+}
+}
+.gg{
+  font-family: "Poetsen One", sans-serif;
+  color: white;
+}
+.about{
+  background-color: rgb(53, 51, 51);
+  color: white;
+}
+.aboutt{
+  font-family: Georgia;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 25px;
+}
+@media(max-width:768px){
+  .aboutt{
+    padding-right: 13px;
+  }
+  .about{
+   margin-right: 20px;
+  }
+}
+.ggh{
+  font-family: "Poetsen One", sans-serif;
+  color: white;
+  border-bottom: 5px solid #e01c53;
+  width: max-content;
+}
+.diff{
+  padding-right: 13px;
+  font-family: Georgia;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 25px;
+  color: gray;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.rounded-list span {
+  background: #e01c53;
+  color: #fff;
+}
+.shh{
+  padding: 17px;
+  font-family: "Lobster", cursive;
+  font-weight: bolder;
+  font-size: 18px;
+  /* display: inline-block; */
+  width: 20px; /* Adjust circle size */
+  height: 20px; /* Adjust circle size */
+  /* border-radius: 50%; Make it a circle */
+  /* background-color: #da5353; Circle color */
+  /* margin-right: 10px; Adjust spacing between circle and text */
+
+border-radius: 12px;
+}
+.ccc{
+  font-size:50px;
+
+  
+}
+ul {
+  list-style-type: none; /* Remove default bullet points */
+}
+.kp{
+  font-family: "DM Serif Display", serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.bb{
+  font-family: "Poetsen One", sans-serif;
+}
+.ttt{
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+}
+.appp{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.blue-box {
+  background-color: rgb(37, 37, 39);
+  /* width: 710px; */
+  height: 90px;
+  
+}
+.btn-outline-secondary:hover {
+border: none;
+  background-color: #e01c53;
+ 
+}
+.btn-outline-secondary{
+  width: 169px;
+  background-color: #252323;
+  border: none;
+  
+}
+.kpp{
+  
+    font-family: "DM Serif Display", serif;
+   
+  
+}
+.subbox
+  {
+    padding: 30px;
+    margin: 40px 0px 0px 0px;
+    background-color: #2a2727;
+    color: #aaaaaa;
+}
+.ttttt{
+  font-family: "Crimson Text", serif;
+  
+  font-size: 18px;
+}
+.ttttt:hover{
+  color: white;
+}
+.nav-link {
+  /* Define initial state */
+  border-top: 5px solid transparent; /* Start with a transparent border */
+  transition: border-color 0.5s ease; /* Add transition effect for border color */
+  width: max-content;
+}
+
+.nav-link:hover {
+  /* Define hover state */
+  border-top-color: #e01c53; /* Change border color on hover */
+}
+
+/* .nav-link:hover{
+ 
+  border-top: 5px solid #e01c53;
+  width: max-content;
+
+
+} */
+
+.kpppp{
+  font-family: "Roboto", sans-serif;
+}
+.fa-angle-up{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.frfr:hover{
+  transform: scale(1.1);
+ 
+}
+.card{
+  overflow: hidden;
+
+ 
+}
+.frfr{
+  transition: all 2s linear;
+ 
+}
+
+.card:hover{
+  background-color: black;
+}
+
+#preloader{
+  background: #000 url(https://i.postimg.cc/Gpt0FHVx/ZZ5H.gif) no-repeat center center;
+  background-size: 8%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+@media (max-width: 405px) {
+
+ 
+    .hh {
+      font-size: 20px;
+    }
+
+    .name {
+      font-size: 16px;
+    }
+  
+}
+
+ /* Adjustments for smaller screens */
+
+
+
+
+@media (max-width: 379px) {
+  .shh {
+    font-size: 12px;
+  }
+  .gg {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 278px) {
+  .shh {
+    font-size: 10px;
+  }
+ 
+}
+.ggp{
+  font-family: "Poetsen One", sans-serif;
+  color: white;
+}
+@media (max-width: 329px) {
+  .ggp{
+    font-size: 20px;
+  }
+ 
+}
+@media (max-width: 278px) {
+  .ggp{
+    font-size: 16px;
+  }
+ 
+}
+#message {
+  background-color: black;
+  color: white;
+  width: 50%; /* Make the textarea width 100% of its container */
+  max-width: 100%; /* Ensure textarea does not exceed its container */
+  resize: vertical; /* Allow vertical resizing */
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #message {
+    width: 100%; /* Set width to 100% for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .sec4 ,.sec10,.kpp{
+    margin: 2rem 0 !important; /* Adjust as needed */
+  }
+  
+}
+.sec5 {
+  margin: 0 1rem; /* Set margin on both sides */
+}
+.navbar-toggler {
+  order: 2; /* Set the order of the toggler to be after the navbar-brand */
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none; /* Hide toggler on large screens */
+  }
+}
+.carousel-container {
+  padding-left: 15px; /* Adjust the value as needed */
+  padding-right: 15px; /* Adjust the value as needed */
+}
+
+/* Set width to 50% by default */
+.blue-box {
+  width: 50%;
+}
+
+/* Set width to 100% for smaller screens */
+@media (max-width: 578px) {
+  .blue-box{
+    width: 100%;
+ 
+ 
+  }
+  .kp{
+    
+    padding: 0px;
+  }
+}
+@media (min-width: 572px) {
+  .yy{
+margin: 37px;
+  }
+  .sec10{
+    margin: 37px;
+  }
+}
+.ggjj{
+  font-family: "Poetsen One", sans-serif;
+  color: white;
+}
+
+@media (max-width: 572px) {
+  
+  .kp{
+    font-size: 15px;
+  }
+  .ttt{
+    font-size: 16px;
+  }
+ 
+}
+.ttty{
+  font-size: 47px;
+  font-family: "Crimson Text", serif;
+}
+.kpps{
+  font-size: 45px;
+  color: white;
+}
+@media (max-width: 572px) {
+  .ttty{
+    font-size: 29px;
+  }
+  .kpps{
+    font-size: 35px;
+  }
+}
+.tttw:hover {
+ 
+    color: #e01c53;
+   
+  }
